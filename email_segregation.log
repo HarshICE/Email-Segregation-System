@@ -1,0 +1,600 @@
+2025-07-11 23:07:12,468 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-11 23:07:12,469 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-11 23:47:55,925 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-11 23:47:55,925 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-11 23:48:15,810 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-11 23:48:15,811 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-11 23:48:15,812 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-11 23:48:15,812 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-11 23:48:15,813 - config.settings - WARNING - Optional configuration missing:
+2025-07-11 23:48:15,813 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-11 23:48:15,814 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-11 23:48:15,814 - __main__ - INFO - Configuration validated successfully
+2025-07-11 23:48:15,815 - __main__ - INFO - Starting Email Segregation System
+2025-07-11 23:48:16,169 - src.database - INFO - Database indexes created successfully
+2025-07-11 23:48:16,171 - src.database - INFO - Successfully connected to MongoDB
+2025-07-11 23:48:16,524 - src.email_processor - INFO - Successfully connected to email server
+2025-07-11 23:48:16,538 - src.database - INFO - Found 47 processed email UIDs
+2025-07-11 23:48:16,540 - __main__ - INFO - Found 47 previously processed emails
+2025-07-11 23:48:16,577 - src.email_processor - INFO - Found 29 total emails, 1 new emails to process
+2025-07-11 23:48:16,735 - src.email_processor - INFO - Successfully fetched 1 new emails
+2025-07-11 23:48:16,808 - src.huggingface_classifier - INFO - Email classified as: software (keyword-enhanced)
+2025-07-11 23:48:16,808 - src.unified_classifier - INFO - Classification successful with huggingface: software
+2025-07-11 23:48:16,817 - src.database - INFO - Email inserted with ID: 6871e9108da0be398dd9ebf5
+2025-07-11 23:48:17,758 - src.email_responder - INFO - Email sent to icecreamwalaharsh6600@gmail.com
+2025-07-11 23:48:17,759 - src.email_responder - INFO - Auto-reply sent to icecreamwalaharsh6600@gmail.com for software department
+2025-07-11 23:48:18,625 - src.email_responder - INFO - Email sent to jovamoc462@pacfut.com
+2025-07-11 23:48:18,626 - src.email_responder - INFO - Email forwarded to jovamoc462@pacfut.com for department: software
+2025-07-11 23:48:18,627 - __main__ - INFO - Successfully processed email from icecreamwalaharsh6600@gmail.com -> software
+2025-07-11 23:48:18,628 - __main__ - INFO - Successfully processed 1 out of 1 emails
+2025-07-11 23:48:18,680 - __main__ - INFO - === Email Processing Statistics ===
+2025-07-11 23:48:18,680 - __main__ - INFO - Total emails processed: 48
+2025-07-11 23:48:18,680 - __main__ - INFO - Hardware department: 10
+2025-07-11 23:48:18,680 - __main__ - INFO - Software department: 25
+2025-07-11 23:48:18,681 - __main__ - INFO - Order department: 2
+2025-07-11 23:48:18,681 - __main__ - INFO - Payment department: 3
+2025-07-11 23:48:18,681 - __main__ - INFO - General department: 8
+2025-07-11 23:48:18,681 - __main__ - INFO - ===================================
+2025-07-11 23:48:18,754 - src.email_processor - INFO - Disconnected from email server
+2025-07-11 23:48:18,758 - src.database - INFO - Disconnected from MongoDB
+2025-07-11 23:48:18,758 - __main__ - INFO - Cleanup completed
+2025-07-12 00:00:02,391 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:00:02,392 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:00:11,227 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:00:11,228 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:00:11,228 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:00:11,229 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:00:11,230 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:00:11,230 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:00:11,230 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:00:11,231 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:00:11,231 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:00:11,232 - __main__ - INFO - Will check for new emails every 60 seconds
+2025-07-12 00:00:11,258 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:00:11,259 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:00:11,581 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:00:11,582 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:00:11,583 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:00:11,583 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:00:11 ---
+2025-07-12 00:00:11,586 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:00:11,625 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:00:11,625 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:00:11,626 - __main__ - INFO - No new emails to process
+2025-07-12 00:00:11,626 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:01:11,659 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:01:11 ---
+2025-07-12 00:01:11,663 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:01:11,700 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:01:11,703 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:01:11,703 - __main__ - INFO - No new emails to process
+2025-07-12 00:01:11,704 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:02:11,734 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:02:11 ---
+2025-07-12 00:02:11,735 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:02:11,795 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:02:11,795 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:02:11,796 - __main__ - INFO - No new emails to process
+2025-07-12 00:02:11,796 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:03:11,836 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:03:11 ---
+2025-07-12 00:03:11,839 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:03:11,876 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:03:11,877 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:03:11,877 - __main__ - INFO - No new emails to process
+2025-07-12 00:03:11,877 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:04:11,906 - __main__ - INFO - 
+--- Email Check Cycle #5 at 2025-07-12 00:04:11 ---
+2025-07-12 00:04:11,908 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:04:11,946 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:04:11,947 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:04:11,948 - __main__ - INFO - No new emails to process
+2025-07-12 00:04:11,949 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:05:11,976 - __main__ - INFO - 
+--- Email Check Cycle #6 at 2025-07-12 00:05:11 ---
+2025-07-12 00:05:11,978 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:05:12,014 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:05:12,016 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:05:12,016 - __main__ - INFO - No new emails to process
+2025-07-12 00:05:12,016 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:06:12,044 - __main__ - INFO - 
+--- Email Check Cycle #7 at 2025-07-12 00:06:12 ---
+2025-07-12 00:06:12,047 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:06:12,083 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:06:12,084 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:06:12,084 - __main__ - INFO - No new emails to process
+2025-07-12 00:06:12,085 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:07:12,124 - __main__ - INFO - 
+--- Email Check Cycle #8 at 2025-07-12 00:07:12 ---
+2025-07-12 00:07:12,128 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:07:12,169 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:07:12,170 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:07:12,171 - __main__ - INFO - No new emails to process
+2025-07-12 00:07:12,171 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:08:12,208 - __main__ - INFO - 
+--- Email Check Cycle #9 at 2025-07-12 00:08:12 ---
+2025-07-12 00:08:12,221 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:08:12,259 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:08:12,259 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:08:12,260 - __main__ - INFO - No new emails to process
+2025-07-12 00:08:12,260 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:09:12,299 - __main__ - INFO - 
+--- Email Check Cycle #10 at 2025-07-12 00:09:12 ---
+2025-07-12 00:09:12,301 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:09:12,338 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:09:12,338 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:09:12,339 - __main__ - INFO - No new emails to process
+2025-07-12 00:09:12,339 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:10:12,384 - __main__ - INFO - 
+--- Email Check Cycle #11 at 2025-07-12 00:10:12 ---
+2025-07-12 00:10:12,388 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:10:12,425 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:10:12,426 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:10:12,427 - __main__ - INFO - No new emails to process
+2025-07-12 00:10:12,427 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:11:12,476 - __main__ - INFO - 
+--- Email Check Cycle #12 at 2025-07-12 00:11:12 ---
+2025-07-12 00:11:12,482 - src.database - INFO - Found 48 processed email UIDs
+2025-07-12 00:11:12,538 - src.email_processor - INFO - Found 29 total emails, 0 new emails to process
+2025-07-12 00:11:12,539 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:11:12,539 - __main__ - INFO - No new emails to process
+2025-07-12 00:11:12,540 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:14:35,734 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:14:35,734 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:14:39,565 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:14:39,565 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:14:39,565 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:14:39,565 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:14:39,566 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:14:39,566 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:14:39,566 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:14:39,566 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:14:39,566 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:14:39,566 - __main__ - INFO - Will check for new emails every 60 seconds
+2025-07-12 00:14:39,576 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:14:39,576 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:14:39,884 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:14:39,884 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:14:39,885 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:14:39,885 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:14:39 ---
+2025-07-12 00:14:39,886 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:14:39,922 - src.email_processor - INFO - Found 30 total emails, 0 new emails to process
+2025-07-12 00:14:39,922 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:14:39,923 - __main__ - INFO - No new emails to process
+2025-07-12 00:14:39,923 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:15:39,946 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:15:39 ---
+2025-07-12 00:15:39,948 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:15:39,983 - src.email_processor - INFO - Found 30 total emails, 0 new emails to process
+2025-07-12 00:15:39,986 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:15:39,989 - __main__ - INFO - No new emails to process
+2025-07-12 00:15:39,992 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:16:40,014 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:16:40 ---
+2025-07-12 00:16:40,015 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:16:40,083 - src.email_processor - INFO - Found 30 total emails, 0 new emails to process
+2025-07-12 00:16:40,084 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:16:40,084 - __main__ - INFO - No new emails to process
+2025-07-12 00:16:40,084 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:17:40,108 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:17:40 ---
+2025-07-12 00:17:40,109 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:17:40,146 - src.email_processor - INFO - Found 30 total emails, 0 new emails to process
+2025-07-12 00:17:40,147 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:17:40,147 - __main__ - INFO - No new emails to process
+2025-07-12 00:17:40,147 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:18:40,175 - __main__ - INFO - 
+--- Email Check Cycle #5 at 2025-07-12 00:18:40 ---
+2025-07-12 00:18:40,178 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:18:40,225 - src.email_processor - INFO - Found 30 total emails, 0 new emails to process
+2025-07-12 00:18:40,226 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:18:40,226 - __main__ - INFO - No new emails to process
+2025-07-12 00:18:40,226 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:19:08,344 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-12 00:19:09,241 - __main__ - INFO - Email Segregation System stopped gracefully
+2025-07-12 00:19:09,315 - src.email_processor - INFO - Disconnected from email server
+2025-07-12 00:19:09,316 - src.database - INFO - Disconnected from MongoDB
+2025-07-12 00:19:09,317 - __main__ - INFO - Cleanup completed
+2025-07-12 00:22:41,070 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:22:41,071 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:22:48,199 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:22:48,199 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:22:48,200 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:22:48,200 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:22:48,201 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:22:48,201 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:22:48,202 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:22:48,202 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:22:48,203 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:22:48,203 - __main__ - INFO - Will check for new emails every 30 seconds
+2025-07-12 00:22:48,230 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:22:48,231 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:22:48,533 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:22:48,534 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:22:48,536 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:22:48,536 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:22:48 ---
+2025-07-12 00:22:48,539 - src.database - INFO - Found 49 processed email UIDs
+2025-07-12 00:22:48,575 - src.email_processor - INFO - Found 31 total emails, 1 new emails to process
+2025-07-12 00:22:48,757 - src.email_processor - INFO - Successfully fetched 1 new emails
+2025-07-12 00:22:48,758 - __main__ - INFO - Found 1 new emails to process
+2025-07-12 00:22:48,763 - src.huggingface_classifier - INFO - Email classified as: software (keyword-enhanced)
+2025-07-12 00:22:48,763 - src.unified_classifier - INFO - Classification successful with huggingface: software
+2025-07-12 00:22:48,770 - src.database - INFO - Email inserted with ID: 6871f128f6bfeda80173a050
+2025-07-12 00:22:49,727 - src.email_responder - INFO - Email sent to ice.harsh06@gmail.com
+2025-07-12 00:22:49,728 - src.email_responder - INFO - Auto-reply sent to ice.harsh06@gmail.com for software department
+2025-07-12 00:22:50,602 - src.email_responder - INFO - Email sent to jovamoc462@pacfut.com
+2025-07-12 00:22:50,602 - src.email_responder - INFO - Email forwarded to jovamoc462@pacfut.com for department: software
+2025-07-12 00:22:50,603 - __main__ - INFO - Successfully processed email from ice.harsh06@gmail.com -> software
+2025-07-12 00:22:50,604 - __main__ - INFO - Successfully processed 1 out of 1 emails
+2025-07-12 00:22:50,617 - __main__ - INFO - === Email Processing Statistics ===
+2025-07-12 00:22:50,617 - __main__ - INFO - Total emails processed: 50
+2025-07-12 00:22:50,618 - __main__ - INFO - Hardware department: 10
+2025-07-12 00:22:50,619 - __main__ - INFO - Software department: 27
+2025-07-12 00:22:50,619 - __main__ - INFO - Order department: 2
+2025-07-12 00:22:50,619 - __main__ - INFO - Payment department: 3
+2025-07-12 00:22:50,620 - __main__ - INFO - General department: 8
+2025-07-12 00:22:50,620 - __main__ - INFO - ===================================
+2025-07-12 00:22:50,620 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:23:20,635 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:23:20 ---
+2025-07-12 00:23:20,639 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:23:20,679 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:23:20,679 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:23:20,680 - __main__ - INFO - No new emails to process
+2025-07-12 00:23:20,681 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:23:50,696 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:23:50 ---
+2025-07-12 00:23:50,700 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:23:50,736 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:23:50,738 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:23:50,738 - __main__ - INFO - No new emails to process
+2025-07-12 00:23:50,739 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:24:20,755 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:24:20 ---
+2025-07-12 00:24:20,762 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:24:20,803 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:24:20,803 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:24:20,804 - __main__ - INFO - No new emails to process
+2025-07-12 00:24:20,804 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:24:50,819 - __main__ - INFO - 
+--- Email Check Cycle #5 at 2025-07-12 00:24:50 ---
+2025-07-12 00:24:50,823 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:24:50,864 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:24:50,865 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:24:50,866 - __main__ - INFO - No new emails to process
+2025-07-12 00:24:50,866 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:25:20,889 - __main__ - INFO - 
+--- Email Check Cycle #6 at 2025-07-12 00:25:20 ---
+2025-07-12 00:25:20,893 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:25:20,933 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:25:20,933 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:25:20,934 - __main__ - INFO - No new emails to process
+2025-07-12 00:25:20,934 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:25:50,950 - __main__ - INFO - 
+--- Email Check Cycle #7 at 2025-07-12 00:25:50 ---
+2025-07-12 00:25:50,955 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:25:50,993 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:25:50,994 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:25:50,996 - __main__ - INFO - No new emails to process
+2025-07-12 00:25:50,997 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:26:21,018 - __main__ - INFO - 
+--- Email Check Cycle #8 at 2025-07-12 00:26:21 ---
+2025-07-12 00:26:21,022 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:26:21,062 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:26:21,063 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:26:21,064 - __main__ - INFO - No new emails to process
+2025-07-12 00:26:21,064 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:26:51,080 - __main__ - INFO - 
+--- Email Check Cycle #9 at 2025-07-12 00:26:51 ---
+2025-07-12 00:26:51,083 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:26:51,122 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:26:51,123 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:26:51,123 - __main__ - INFO - No new emails to process
+2025-07-12 00:26:51,123 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:27:21,136 - __main__ - INFO - 
+--- Email Check Cycle #10 at 2025-07-12 00:27:21 ---
+2025-07-12 00:27:21,140 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:27:21,181 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:27:21,182 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:27:21,182 - __main__ - INFO - No new emails to process
+2025-07-12 00:27:21,183 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:27:51,198 - __main__ - INFO - 
+--- Email Check Cycle #11 at 2025-07-12 00:27:51 ---
+2025-07-12 00:27:51,201 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:27:51,244 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:27:51,245 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:27:51,245 - __main__ - INFO - No new emails to process
+2025-07-12 00:27:51,245 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:28:21,264 - __main__ - INFO - 
+--- Email Check Cycle #12 at 2025-07-12 00:28:21 ---
+2025-07-12 00:28:21,267 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:28:21,322 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:28:21,323 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:28:21,324 - __main__ - INFO - No new emails to process
+2025-07-12 00:28:21,325 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:28:51,344 - __main__ - INFO - 
+--- Email Check Cycle #13 at 2025-07-12 00:28:51 ---
+2025-07-12 00:28:51,348 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:28:51,386 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:28:51,388 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:28:51,388 - __main__ - INFO - No new emails to process
+2025-07-12 00:28:51,388 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:29:21,402 - __main__ - INFO - 
+--- Email Check Cycle #14 at 2025-07-12 00:29:21 ---
+2025-07-12 00:29:21,406 - src.database - INFO - Found 50 processed email UIDs
+2025-07-12 00:29:21,443 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:29:21,445 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:29:21,446 - __main__ - INFO - No new emails to process
+2025-07-12 00:29:21,446 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:29:51,460 - __main__ - INFO - 
+--- Email Check Cycle #15 at 2025-07-12 00:29:51 ---
+2025-07-12 00:29:51,462 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:29:51,500 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:29:51,501 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:29:51,502 - __main__ - INFO - No new emails to process
+2025-07-12 00:29:51,502 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:30:21,520 - __main__ - INFO - 
+--- Email Check Cycle #16 at 2025-07-12 00:30:21 ---
+2025-07-12 00:30:21,523 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:30:21,587 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:30:21,587 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:30:21,588 - __main__ - INFO - No new emails to process
+2025-07-12 00:30:21,588 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:30:51,602 - __main__ - INFO - 
+--- Email Check Cycle #17 at 2025-07-12 00:30:51 ---
+2025-07-12 00:30:51,604 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:30:51,643 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:30:51,644 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:30:51,644 - __main__ - INFO - No new emails to process
+2025-07-12 00:30:51,645 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:31:21,661 - __main__ - INFO - 
+--- Email Check Cycle #18 at 2025-07-12 00:31:21 ---
+2025-07-12 00:31:21,666 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:31:21,721 - src.email_processor - INFO - Found 31 total emails, 0 new emails to process
+2025-07-12 00:31:21,721 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:31:21,723 - __main__ - INFO - No new emails to process
+2025-07-12 00:31:21,725 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:31:44,379 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:31:44,381 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:31:48,680 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:31:48,680 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:31:48,681 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:31:48,682 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:31:48,682 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:31:48,683 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:31:48,684 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:31:48,684 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:31:48,685 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:31:48,686 - __main__ - INFO - Will check for new emails every 30 seconds
+2025-07-12 00:31:48,706 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:31:48,706 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:31:49,001 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:31:49,001 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:31:49,001 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:31:49,001 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:31:49 ---
+2025-07-12 00:31:49,002 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:31:49,089 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:31:49,089 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:31:49,090 - __main__ - INFO - No new emails to process
+2025-07-12 00:31:49,090 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:32:19,108 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:32:19 ---
+2025-07-12 00:32:19,112 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:32:19,195 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:32:19,197 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:32:19,198 - __main__ - INFO - No new emails to process
+2025-07-12 00:32:19,199 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:32:49,212 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:32:49 ---
+2025-07-12 00:32:49,216 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:32:49,306 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:32:49,307 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:32:49,307 - __main__ - INFO - No new emails to process
+2025-07-12 00:32:49,308 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:32:51,780 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:32:51,780 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:32:56,468 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:32:56,468 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:32:56,469 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:32:56,470 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:32:56,470 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:32:56,470 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:32:56,470 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:32:56,470 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:32:56,471 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:32:56,472 - __main__ - INFO - Will check for new emails every 60 seconds
+2025-07-12 00:32:56,490 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:32:56,491 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:32:56,723 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:32:56,723 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:32:56,724 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:32:56,724 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:32:56 ---
+2025-07-12 00:32:56,726 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:32:56,836 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:32:56,837 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:32:56,838 - __main__ - INFO - No new emails to process
+2025-07-12 00:32:56,838 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:33:19,335 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:33:19 ---
+2025-07-12 00:33:19,339 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:33:19,419 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:33:19,421 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:33:19,422 - __main__ - INFO - No new emails to process
+2025-07-12 00:33:19,422 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:33:44,196 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:33:44,196 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:33:48,551 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:33:48,552 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:33:48,552 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:33:48,553 - src.unified_classifier - INFO - Unified classifier initialized with method: huggingface
+2025-07-12 00:33:48,554 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:33:48,555 - config.settings - WARNING -   - OPENAI_API_KEY: OpenAI classifier will be unavailable
+2025-07-12 00:33:48,555 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:33:48,556 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:33:48,557 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:33:48,557 - __main__ - INFO - Will check for new emails every 30 seconds
+2025-07-12 00:33:48,598 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:33:48,598 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:33:49,011 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:33:49,011 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:33:49,011 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:33:49,012 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:33:49 ---
+2025-07-12 00:33:49,013 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:33:49,098 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:33:49,098 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:33:49,098 - __main__ - INFO - No new emails to process
+2025-07-12 00:33:49,099 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:34:19,114 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:34:19 ---
+2025-07-12 00:34:19,117 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:34:19,204 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:34:19,206 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:34:19,207 - __main__ - INFO - No new emails to process
+2025-07-12 00:34:19,207 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:34:49,224 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:34:49 ---
+2025-07-12 00:34:49,229 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:34:49,313 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:34:49,314 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:34:49,314 - __main__ - INFO - No new emails to process
+2025-07-12 00:34:49,315 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:35:19,331 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:35:19 ---
+2025-07-12 00:35:19,334 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:35:19,413 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:35:19,414 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:35:19,415 - __main__ - INFO - No new emails to process
+2025-07-12 00:35:19,415 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:35:49,438 - __main__ - INFO - 
+--- Email Check Cycle #5 at 2025-07-12 00:35:49 ---
+2025-07-12 00:35:49,442 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:35:49,521 - src.email_processor - INFO - Found 33 total emails, 0 new emails to process
+2025-07-12 00:35:49,521 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:35:49,522 - __main__ - INFO - No new emails to process
+2025-07-12 00:35:49,523 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:36:19,541 - __main__ - INFO - 
+--- Email Check Cycle #6 at 2025-07-12 00:36:19 ---
+2025-07-12 00:36:19,545 - src.database - INFO - Found 52 processed email UIDs
+2025-07-12 00:36:19,639 - src.email_processor - INFO - Found 34 total emails, 1 new emails to process
+2025-07-12 00:36:19,802 - src.email_processor - INFO - Successfully fetched 1 new emails
+2025-07-12 00:36:19,803 - __main__ - INFO - Found 1 new emails to process
+2025-07-12 00:36:19,807 - src.huggingface_classifier - INFO - Email classified as: hardware (keyword-enhanced)
+2025-07-12 00:36:19,807 - src.unified_classifier - INFO - Classification successful with huggingface: hardware
+2025-07-12 00:36:19,813 - src.database - INFO - Email inserted with ID: 6871f4533a1b59a1c92190bb
+2025-07-12 00:36:20,782 - src.email_responder - INFO - Email sent to icecreamwalaharsh6600@gmail.com
+2025-07-12 00:36:20,783 - src.email_responder - INFO - Auto-reply sent to icecreamwalaharsh6600@gmail.com for hardware department
+2025-07-12 00:36:21,524 - src.email_responder - INFO - Email sent to mrnhnzfmlgoxhrmohq@enotj.com
+2025-07-12 00:36:21,525 - src.email_responder - INFO - Email forwarded to mrnhnzfmlgoxhrmohq@enotj.com for department: hardware
+2025-07-12 00:36:21,525 - __main__ - INFO - Successfully processed email from icecreamwalaharsh6600@gmail.com -> hardware
+2025-07-12 00:36:21,527 - __main__ - INFO - Successfully processed 1 out of 1 emails
+2025-07-12 00:36:21,540 - __main__ - INFO - === Email Processing Statistics ===
+2025-07-12 00:36:21,540 - __main__ - INFO - Total emails processed: 53
+2025-07-12 00:36:21,541 - __main__ - INFO - Hardware department: 11
+2025-07-12 00:36:21,541 - __main__ - INFO - Software department: 29
+2025-07-12 00:36:21,541 - __main__ - INFO - Order department: 2
+2025-07-12 00:36:21,541 - __main__ - INFO - Payment department: 3
+2025-07-12 00:36:21,541 - __main__ - INFO - General department: 8
+2025-07-12 00:36:21,541 - __main__ - INFO - ===================================
+2025-07-12 00:36:21,542 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:36:51,558 - __main__ - INFO - 
+--- Email Check Cycle #7 at 2025-07-12 00:36:51 ---
+2025-07-12 00:36:51,562 - src.database - INFO - Found 53 processed email UIDs
+2025-07-12 00:36:51,656 - src.email_processor - INFO - Found 34 total emails, 0 new emails to process
+2025-07-12 00:36:51,660 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:36:51,660 - __main__ - INFO - No new emails to process
+2025-07-12 00:36:51,661 - __main__ - INFO - Waiting 30 seconds until next check...
+2025-07-12 00:49:13,032 - src.enhanced_keyword_classifier - INFO - Enhanced keyword classifier initialized
+2025-07-12 00:49:13,032 - src.unified_classifier - INFO - Enhanced keyword classifier loaded
+2025-07-12 00:49:13,032 - src.unified_classifier - WARNING - OpenAI classifier not available: No module named 'src.openai_classifier'
+2025-07-12 00:49:20,086 - src.huggingface_classifier - INFO - Hugging Face classifier initialized
+2025-07-12 00:49:20,086 - src.unified_classifier - INFO - Hugging Face classifier loaded
+2025-07-12 00:49:20,088 - src.unified_classifier - WARNING - MonkeyLearn classifier not available: No module named 'src.classifier'
+2025-07-12 00:49:20,088 - src.unified_classifier - INFO - Unified classifier initialized with method: openai
+2025-07-12 00:49:20,089 - config.settings - WARNING - Optional configuration missing:
+2025-07-12 00:49:20,089 - config.settings - WARNING -   - MONKEYLEARN_API_KEY: MonkeyLearn classifier will be unavailable (legacy)
+2025-07-12 00:49:20,090 - __main__ - INFO - Configuration validated successfully
+2025-07-12 00:49:20,091 - __main__ - INFO - Starting Email Segregation System in CONTINUOUS mode
+2025-07-12 00:49:20,091 - __main__ - INFO - Will check for new emails every 60 seconds
+2025-07-12 00:49:20,111 - src.database - INFO - Database indexes created successfully
+2025-07-12 00:49:20,113 - src.database - INFO - Successfully connected to MongoDB
+2025-07-12 00:49:20,561 - src.email_processor - INFO - Successfully connected to email server
+2025-07-12 00:49:20,561 - __main__ - INFO - Email Segregation System is now running continuously...
+2025-07-12 00:49:20,561 - __main__ - INFO - Press Ctrl+C to stop the system gracefully
+2025-07-12 00:49:20,561 - __main__ - INFO - 
+--- Email Check Cycle #1 at 2025-07-12 00:49:20 ---
+2025-07-12 00:49:20,563 - src.database - INFO - Found 53 processed email UIDs
+2025-07-12 00:49:20,731 - src.email_processor - INFO - Found 34 total emails, 0 new emails to process
+2025-07-12 00:49:20,732 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:49:20,732 - __main__ - INFO - No new emails to process
+2025-07-12 00:49:20,732 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:50:20,761 - __main__ - INFO - 
+--- Email Check Cycle #2 at 2025-07-12 00:50:20 ---
+2025-07-12 00:50:20,763 - src.database - INFO - Found 53 processed email UIDs
+2025-07-12 00:50:20,874 - src.email_processor - INFO - Found 34 total emails, 0 new emails to process
+2025-07-12 00:50:20,875 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:50:20,876 - __main__ - INFO - No new emails to process
+2025-07-12 00:50:20,877 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:51:20,919 - __main__ - INFO - 
+--- Email Check Cycle #3 at 2025-07-12 00:51:20 ---
+2025-07-12 00:51:20,923 - src.database - INFO - Found 53 processed email UIDs
+2025-07-12 00:51:21,015 - src.email_processor - INFO - Found 35 total emails, 1 new emails to process
+2025-07-12 00:51:21,170 - src.email_processor - INFO - Successfully fetched 1 new emails
+2025-07-12 00:51:21,172 - __main__ - INFO - Found 1 new emails to process
+2025-07-12 00:51:21,176 - src.huggingface_classifier - INFO - Email classified as: software (keyword-enhanced)
+2025-07-12 00:51:21,176 - src.unified_classifier - INFO - Classification successful with fallback huggingface: software
+2025-07-12 00:51:21,181 - src.database - INFO - Email inserted with ID: 6871f7d922c90484747f1519
+2025-07-12 00:51:22,153 - src.email_responder - INFO - Email sent to icecreamwalaharsh6600@gmail.com
+2025-07-12 00:51:22,154 - src.email_responder - INFO - Auto-reply sent to icecreamwalaharsh6600@gmail.com for software department
+2025-07-12 00:51:23,000 - src.email_responder - INFO - Email sent to jovamoc462@pacfut.com
+2025-07-12 00:51:23,003 - src.email_responder - INFO - Email forwarded to jovamoc462@pacfut.com for department: software
+2025-07-12 00:51:23,003 - __main__ - INFO - Successfully processed email from icecreamwalaharsh6600@gmail.com -> software
+2025-07-12 00:51:23,003 - __main__ - INFO - Successfully processed 1 out of 1 emails
+2025-07-12 00:51:23,015 - __main__ - INFO - === Email Processing Statistics ===
+2025-07-12 00:51:23,016 - __main__ - INFO - Total emails processed: 54
+2025-07-12 00:51:23,016 - __main__ - INFO - Hardware department: 11
+2025-07-12 00:51:23,017 - __main__ - INFO - Software department: 30
+2025-07-12 00:51:23,020 - __main__ - INFO - Order department: 2
+2025-07-12 00:51:23,020 - __main__ - INFO - Payment department: 3
+2025-07-12 00:51:23,022 - __main__ - INFO - General department: 8
+2025-07-12 00:51:23,023 - __main__ - INFO - ===================================
+2025-07-12 00:51:23,023 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:52:23,058 - __main__ - INFO - 
+--- Email Check Cycle #4 at 2025-07-12 00:52:23 ---
+2025-07-12 00:52:23,062 - src.database - INFO - Found 54 processed email UIDs
+2025-07-12 00:52:23,143 - src.email_processor - INFO - Found 35 total emails, 0 new emails to process
+2025-07-12 00:52:23,144 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:52:23,144 - __main__ - INFO - No new emails to process
+2025-07-12 00:52:23,146 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:53:23,174 - __main__ - INFO - 
+--- Email Check Cycle #5 at 2025-07-12 00:53:23 ---
+2025-07-12 00:53:23,175 - src.database - INFO - Found 54 processed email UIDs
+2025-07-12 00:53:23,261 - src.email_processor - INFO - Found 35 total emails, 0 new emails to process
+2025-07-12 00:53:23,266 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:53:23,266 - __main__ - INFO - No new emails to process
+2025-07-12 00:53:23,267 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:54:23,310 - __main__ - INFO - 
+--- Email Check Cycle #6 at 2025-07-12 00:54:23 ---
+2025-07-12 00:54:23,315 - src.database - INFO - Found 54 processed email UIDs
+2025-07-12 00:54:23,394 - src.email_processor - INFO - Found 35 total emails, 0 new emails to process
+2025-07-12 00:54:23,394 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:54:23,395 - __main__ - INFO - No new emails to process
+2025-07-12 00:54:23,396 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:55:23,435 - __main__ - INFO - 
+--- Email Check Cycle #7 at 2025-07-12 00:55:23 ---
+2025-07-12 00:55:23,438 - src.database - INFO - Found 54 processed email UIDs
+2025-07-12 00:55:23,517 - src.email_processor - INFO - Found 35 total emails, 0 new emails to process
+2025-07-12 00:55:23,518 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:55:23,518 - __main__ - INFO - No new emails to process
+2025-07-12 00:55:23,518 - __main__ - INFO - Waiting 60 seconds until next check...
+2025-07-12 00:56:23,567 - __main__ - INFO - 
+--- Email Check Cycle #8 at 2025-07-12 00:56:23 ---
+2025-07-12 00:56:23,571 - src.database - INFO - Found 54 processed email UIDs
+2025-07-12 00:56:23,650 - src.email_processor - INFO - Found 35 total emails, 0 new emails to process
+2025-07-12 00:56:23,651 - src.email_processor - INFO - Successfully fetched 0 new emails
+2025-07-12 00:56:23,652 - __main__ - INFO - No new emails to process
+2025-07-12 00:56:23,653 - __main__ - INFO - Waiting 60 seconds until next check...

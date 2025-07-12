@@ -1,0 +1,23 @@
+# Core email processing dependencies
+pymongo==4.6.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+lxml==4.9.3
+
+# Optional NLP dependencies (choose one or more)
+# OpenAI API (recommended)
+openai==1.3.7
+
+# Hugging Face Transformers (free, offline)
+transformers==4.36.2
+torch>=2.2.0
+
+# MonkeyLearn (original)
+monkeylearn==3.6.0
+
+# Data processing (optional)
+pandas>=2.1.4
+numpy>=1.24.3
+
+# Utility dependencies
+email-validator==2.1.0
